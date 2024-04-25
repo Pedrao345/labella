@@ -1,0 +1,230 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Lucida Sans';
+   color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+body h1 {
+   font-family: 'Segoe UI', sans-serif;
+   align-items: center;
+   text-align: center;
+   padding: 30px;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   font-size: 45px;
+   justify-content: center;
+   border-radius: 15px;
+   letter-spacing: 1.5px;
+}
+
+#topo {
+   height: 180px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(255, 0, 0));
+}
+
+#topo #logo img {
+   width: 210px;
+   height: 160px;
+   margin-right: 5%;
+}
+
+#conteudo {
+   padding: 20px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   max-width: 1440vh;
+   background-color: rgb(0, 0, 0);
+   margin: auto;
+   margin-bottom: 1px;
+   border-radius: 10px;
+}
+
+#conteudo a {
+   text-decoration: none;
+   color:black;
+}
+
+.card {
+   width: 320px;
+   height: 250px;
+   border: 2px solid black;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px rgb(0, 0, 0);
+   background-color: azure;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   transition: all ease 0.5s;
+   text-align: center;
+   overflow: hidden;
+}
+
+.card:hover {
+   width: 300px;
+   height: auto;
+}
+
+.card figure {
+   width: 270px;
+   height: 290px;
+   border-radius: 10px;
+}
+
+.card figure img {
+   width: 100%;
+}
+
+.card h2 {
+   font-family: 'Segoe UI';
+   font-size: 20px;
+   margin-top: -10px;
+   color: rgb(0, 0, 0);
+   -webkit-text-stroke: 1px rgb(0, 0, 0);
+   letter-spacing: 1.5px;
+}
+
+.card p {
+   font-family: 'Segoe UI';
+   color: rgb(0, 0, 0);
+   text-overflow: clip;
+   margin-top: -10px;
+   padding-bottom: 15px;
+}
+
+.card h4 {
+    color: red;
+}
+
+.descricao {
+   display: inline-block;
+   position: relative;
+   white-space: inherit;
+   border: 3px solid black;
+   margin-top: 5px;
+   padding-top: 2%;
+   padding: -5px;
+   background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(255, 255, 255));
+   border-radius: 10px;
+   box-shadow: 3px 3px 6px black;
+}
+
+.descricao h3 {
+   padding-top: -5px;
+   padding-bottom: 8px;
+   padding: 2%;
+   border-bottom: 2px solid black;
+   margin: 10px;
+   font-size: 30px;
+}
+
+.descricao p {
+   padding: 8px;
+   font-family: Arial;
+   padding-bottom: 20px; 
+}
+
+#botao {
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+}
+
+#rodape {
+   background-color: rgb(255, 255, 255);
+   height: 50px;
+   color: rgb(255, 0, 0);
+}
+
+#rodape p {
+   text-align: center;
+   padding-top: 20px;  
+}
+
+#menu {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+   }
+ 
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.815);
+    font-family: Open Sans;
+    justify-content: center;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    display: inline;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#menu ul li a:hover {
+    background-color: #f73333;
+}
+
+
+h1 {
+    font-family: 'Segoe UI';
+}
+
+#parte1 {
+    height: 65vh;
+    background-color: #589625
+}
+
+#parte2 {
+    height: 62vh;
+    background-color: orange
+}
+
+#parte3 {
+    height: 62vh;
+    background-color: rgb(255, 105, 105);
+}
+
+#parte4 {
+    height: 62vh;
+    background-color: rgb(146, 197, 255);
+}
+
+#parte5 {
+   height: 62vh;
+   background-color: rgb(146, 255, 170);
+}
